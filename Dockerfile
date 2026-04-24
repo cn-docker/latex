@@ -4,16 +4,16 @@ LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 ENV TZ=Europe/London
 
 # renovate: datasource=ubuntu-package suite=resolute depName=texlive-full
-ENV TEXLIVE_VERSION="2023.20240207-1"
+ENV TEXLIVE_VERSION="2025.20260124-1"
 
 # renovate: datasource=ubuntu-package suite=resolute depName=latexmk
-ENV LATEXMK_VERSION="1:4.83-1"
+ENV LATEXMK_VERSION="1:4.87~ds-1"
 
 # renovate: datasource=ubuntu-package suite=resolute depName=biber
-ENV BIBER_VERSION="2.19-2"
+ENV BIBER_VERSION="2.21-2"
 
 # renovate: datasource=ubuntu-package suite=resolute depName=chktex
-ENV CHKTEX_VERSION="1.7.8-1"
+ENV CHKTEX_VERSION="1.7.9-2"
 
 ENV TEXCOUNT_VERSION="3_2_0_41"
 
